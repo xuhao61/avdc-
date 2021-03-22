@@ -23,7 +23,7 @@ docker run -d \
     -e HTTP_PROXY=http://192.168.1.1:8080 \
     -e HTTPS_PROXY=http://192.168.1.1:8080 \
     -e AVDC_TOKEN=password \
-    ghcr.io/xjasonlyu/avdc:latest
+    ghcr.io/xjasonlyu/avdc-api:latest
 ```
 
 ------
