@@ -13,7 +13,7 @@ docker pull ghcr.io/xjasonlyu/avdc-api:latest
 ### 运行镜像
 
 1. 下载[avdc.db](https://github.com/xjasonlyu/avdc-api/raw/main/avdc.db)到本地
-2. 根据本地情况更改，这里假设本地的HTTP代理地址位为`192.168.1.1:8080`，（如果不需要代理直接空着就行）
+2. 根据本地情况更改，这里假设本地的HTTP代理地址位为`192.168.1.1:8080`，（不需要可以为空）
 3. 假设需要设置TOKEN为`password`，（不需要可以为空）
 
 ```
@@ -27,3 +27,5 @@ docker run -d \
 ```
 
 ### Done
+
+打开浏览器，输入`http://<你的IP>:5000`，看到JSON显示即为安装成功
