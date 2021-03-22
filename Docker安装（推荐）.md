@@ -26,8 +26,8 @@ docker run -d \
     ghcr.io/xjasonlyu/avdc:latest
 ```
 
------
+------
 
 打开浏览器，输入`http://<你的IP>:5000`，看到JSON显示即为安装成功
 
-![ok](/images/ok.png)
+[[/images/ok.png]]
