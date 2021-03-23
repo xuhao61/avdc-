@@ -39,6 +39,6 @@
 
 ------
 
-打开浏览器，输入`http://<你的IP>:6666`，看到JSON显示即为安装成功
+打开浏览器，输入`http://<你的IP>:1234`，看到JSON显示即为安装成功（如果设置了token，显示的是unauthorized）
 
 [[/images/ok.png]]
