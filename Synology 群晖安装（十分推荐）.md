@@ -2,6 +2,10 @@
 
 确保群晖安装了Docker，不回的话可以参考这篇[知乎教程](https://zhuanlan.zhihu.com/p/146175822)
 
+## 下载文件
+
+下载[avdc.db](https://github.com/xjasonlyu/avdc-api/raw/main/avdc.db)并上传至群晖，目录任意
+
 ## 添加镜像
 
 映像 -> 新增 -> 从URL添加 -> 输入 `xjasonlyu/avdc-api`
@@ -18,9 +22,16 @@
 
 [[/images/6666.png]]
 
-【可选】然后去环境设置，找到`AVDC_TOKEN`，填入需要的token（不需要的空着即可）
+进入 卷 设置，添加文件，将之前下载的avdc.db载入
 
-[[/images/token.png]]
+[[/images/db.png]]
+
+【可选】环境设置
+
+- `HTTP_PROXY`和`HTTPS_PROXY`，填入代理地址（如http://192.168.1.1:8080， 不需要的空着即可）
+- `AVDC_TOKEN`，填入需要的token（不需要的空着即可）
+
+[[/images/env.png]]
 
 一路应用确定下一步，最后应用创建容器
 
