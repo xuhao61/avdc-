@@ -29,7 +29,7 @@
 ## 【可选】环境设置
 
 - `HTTP_PROXY`和`HTTPS_PROXY`，填入代理地址（如http://192.168.1.1:8080， 不需要的空着即可）
-- `AVDC_TOKEN`，填入需要的token（不需要的空着即可）
+- `AVDC_TOKEN`，填入需要的token（不需要的空着即可）(**不建议设置TOKEN，有需要的用反代+PATH更好**)
 
 [[/images/env.png]]
 
